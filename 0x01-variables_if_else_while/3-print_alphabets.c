@@ -6,14 +6,14 @@
 
 int main(void)
 {
-	char ch = 'a';
+	int ch = 'a';
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
 
-	char upper_case = 'A';
+	int upper_case = 'A';
 
 	for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
 	{
