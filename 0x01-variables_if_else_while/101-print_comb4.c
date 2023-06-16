@@ -21,8 +21,10 @@ int main(void)
 					if (digit1 != '7')
 					{
 						putchar(',');
+
+						putchar(' ');
 					}
-					putchar(' ');
+					
 				}
 			}
 		}
