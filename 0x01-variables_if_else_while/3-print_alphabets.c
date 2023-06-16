@@ -13,11 +13,11 @@ int main(void)
 		putchar(ch);
 	}
 
-	char chr = 'A';
+	char upper_case = 'A';
 
-	for (chr = 'A'; chr <= 'Z'; chr++)
+	for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
 	{
-		putchar(chr);
+		putchar(upper_case);
 	}
 
 	putchar('\n');
