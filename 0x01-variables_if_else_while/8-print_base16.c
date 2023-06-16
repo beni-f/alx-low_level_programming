@@ -5,12 +5,14 @@
 */
 int main(void)
 {
-	for (int ch = '0'; ch <= '9'; ch++)
+	int ch;
+
+	for (ch = '0'; ch <= '9'; ch++)
 	{
 		putchar(ch);
 	}
 
-	for (int ch = 'a'; ch <= 'f'; ch++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
