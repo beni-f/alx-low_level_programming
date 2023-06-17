@@ -22,9 +22,9 @@ int main(void)
 				if (digit1 != '8')
 				{
 					putchar(',');
-				}
 
-				 putchar(' ');
+					putchar(' ');
+				}
 			}
 		}
 	}
