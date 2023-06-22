@@ -1,5 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
+void print_line(int n);
+void more_numbers(void);
 char _putchar(int c);
 void print_numbers(void);
 int _isupper(int c);
