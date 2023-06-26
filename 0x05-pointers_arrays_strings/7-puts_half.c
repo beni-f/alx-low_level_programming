@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include "main.h"
-
+/**
+ * puts_half - prints the second half of a string
+ * @str: pointer to character parameter
+*/
 void puts_half(char *str)
 {
 	int index, i;
