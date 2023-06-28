@@ -1,7 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 #include <math.h>
-
+/**
+ * _atoi - converts string to integers
+ * @s: pointer to character parameter
+ * 
+ * Return: returns the converted string 
+*/
 int _atoi(char *s)
 {
 	unsigned int i = 0, length = 0, num = 0, sign = 1;
