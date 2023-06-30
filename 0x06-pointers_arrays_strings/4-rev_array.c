@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * reverse_array - takes an array and reverses it
- * 
+ *
  * @n: pointer to integer parameter
  * @a: integer parameter
 */
