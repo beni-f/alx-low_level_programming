@@ -1,2 +1,2 @@
 #!/bin/bash 
-ar -rc libname.a *.o
+ar -rc liball.a *.o
