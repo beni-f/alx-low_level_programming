@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * ch_free_grid - Main Entry
- * @grid: input
+ * @a: input
  * @height: input
  */
 void ch_free_grid(char **a, unsigned int height)
