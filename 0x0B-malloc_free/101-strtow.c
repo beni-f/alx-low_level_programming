@@ -10,9 +10,9 @@ void ch_free_grid(char **a, unsigned int height)
 	if (a != NULL && height != 0)
 	{
 		for (; height > 0; height--)
-			free(grid[height]);
-		free(grid[height]);
-		free(grid);
+			free(a[height]);
+		free(a[height]);
+		free(a);
 	}
 }
 /**
