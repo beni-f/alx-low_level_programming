@@ -6,23 +6,26 @@
  *
  * @max: integer input
  * @min: integer input
- * 
+ *
  * Return: returns int
 */
 int *array_range(int min, int max)
 {
-	int *a;
+	int *a, n, i, j;
 
-	
 	if (min > max)
 		return (NULL);
-	
-	a = malloc (max - min);
+	n = max - min + 1;
+
+	a = malloc(sizeof(int) * n);
 
 	if (a == NULL)
 		return (NULL);
 
-	
+	for (i = min, j = 0; i <= max || j < n; i++, j++)
+	{
+		a[j] = i;
+	}
 
 	return (a);
 }
