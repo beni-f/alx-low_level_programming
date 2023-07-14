@@ -1,7 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-
+/**
+ * malloc_checked - allocates memory
+ *
+ * @b: integer input
+ *
+ * Return: returns pointer to a memory
+*/
 void *malloc_checked(unsigned int b)
 {
 	char *a;
@@ -9,7 +15,7 @@ void *malloc_checked(unsigned int b)
 	a = malloc(b);
 
 	if (b == 0 || a == NULL)
-		return ("98");
-	
+		exit(98);
+
 	return (a);
 }
