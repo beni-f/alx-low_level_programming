@@ -2,14 +2,14 @@
 
 int main(void)
 {
-	int i = 1, sum = 0;
+	int n = 1, sum = 3;
 
-	for (i = 1; i <= 50; i++)
+	while (n <= 50)
 	{
-		sum = i + (i + 1);
+		sum += sum + n;
 	}
 	
-	printf("%i\n", sum);
+
 
 	return (0);
 }

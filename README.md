@@ -1,1 +1,1 @@
-This is a repo for C programming language tasks and projects
+This is for structures and typedef tasks
