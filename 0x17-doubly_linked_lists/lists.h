@@ -9,6 +9,7 @@ typedef struct listint_t{
     struct listint_t *next;
     struct listint_t *prev;
 }dlistint_t;
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 size_t print_dlistint(const dlistint_t *h);
 void free_dlistint(dlistint_t *head);
 size_t dlistint_len(const dlistint_t *h);
