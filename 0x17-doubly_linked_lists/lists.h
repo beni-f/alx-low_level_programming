@@ -1,9 +1,8 @@
-#ifndef LISTS_H
-#define LISTS_H
+#ifndef _LISTS_
+#define _LISTS_
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
-#include <string.h>
 /**
  * struct dlistint_s - doubly linked list
  * @n: integer
@@ -19,6 +18,7 @@ typedef struct dlistint_s
     struct dlistint_s *prev;
     struct dlistint_s *next;
 } dlistint_t;
+
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 int sum_dlistint(dlistint_t *head);
