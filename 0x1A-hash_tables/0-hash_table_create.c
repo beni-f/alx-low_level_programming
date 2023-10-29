@@ -16,8 +16,6 @@ hash_table_t *hash_table_create(unsigned long int size)
     {
         table->array[i] = NULL;
     }
-    free(table->array);
-    free(table);
 
     return (table);
 }
