@@ -1,5 +1,12 @@
 #include "search_algos.h"
-
+/**
+ * linear_search - A function that searches for a value in an array using the Linear Search Algorithm
+ * @array: a pointer to the first element of the array to search in
+ * @size: the number of elements in array
+ * @value: the value to reseach to for
+ * 
+ * Return: returns the first index where value is located
+*/
 int linear_search(int *array, size_t size, int value)
 {
     size_t i, found = 0;
